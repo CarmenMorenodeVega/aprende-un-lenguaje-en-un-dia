@@ -28,9 +28,9 @@ Para añadir colaboradores hay que hacer click en la pestaña *Settings* y selec
 
 Escribe aquí los miembros del grupo. El primero es el representante o encargado.
 
-* Alan Brito
-* Elba Lazo
-* Esteban Quito
+* Carmen Moreno de Vega
+* Manuel Zambrana
+* Adrian Sánchez
 
 ## Lenguaje de programación
 
@@ -38,9 +38,7 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 
 Escribe el lenguaje de programación elegido por el grupo.
 
-* Mi lenguaje
-
-Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf).
+* El lenguaje elegido es RUST.
 
 ## Información sobre el lenguaje
 
