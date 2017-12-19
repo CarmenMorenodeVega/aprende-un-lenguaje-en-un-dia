@@ -12,12 +12,12 @@ El profesor llevará una cajita llena de papelitos con los nombres de distintos 
 
 Escribe el lenguaje de programación elegido .
 
-* El lenguaje por el grupo RUSTPOWER es elegido es RUST.
+* El lenguaje elegido por el grupo RUSTPOWER es RUST por ser un lenguaje en auge.
 
 ## Información sobre el lenguaje
 
-Aunque muchos están conociendo el lenguaje RUST en los últimos años, en realidad, oficialmente salió a la luz en el 2010.
-Los proyectos en producción con Rust pueden dividirse en cliente y servidor, cualidad que hace que Rust sea uno de los lenguajes más querido por los desarrolladores.
+Aunque muchos están conociendo el lenguaje RUST en los últimos años, oficialmente salió a la luz en el 2010.
+Los proyectos desarrollados con Rust pueden dividirse en cliente y servidor, cualidad que hace que Rust sea uno de los lenguajes más querido por los desarrolladores.
 
 Compañías como Coursera, Dropbox, NPM y otros están empezando a utilizar Rust en sus proyectos. Dropbox, por ejemplo, lo esta usando en sus clientes de Windows, así que ya tenemos millones de implementaciones que están usando Rust y NPM lo esta utilizando para el trabajo con paquetes de Javascript.
 
@@ -31,7 +31,7 @@ Las características más importantes de este lenguaje son:
 
 ## Herramientas de desarrollo
 
-rustup-init  Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
+Para comenzar a utilizar este lenguaje es necesario descargarse la aplicación "rustup-init" e instalarla. en cuadnto a la IDE requerida para editar y visualizar el programa
 
 ## Poniendo en práctica el lenguaje
 
