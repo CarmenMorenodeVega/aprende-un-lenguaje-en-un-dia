@@ -1,32 +1,6 @@
 # Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
 
-## Introducción
-
-Cuando te sacaste el carnet de conducir, aprendiste las normas de circulación así como los fundamentos básicos para manejar un coche: volante, marchas, freno, acelerador, embrague, retrovisores... Seguramente, el coche que conduces ahora es diferente al que utilizaste para aprender a conducir, no obstante, lo puedes llevar sin problema. Cada coche tiene sus peculiaridades, pero quien sabe manejar un automóvil, puede adaptarse a las medidas, tacto y comportamiento de un vehículo en cuestión de horas.
-
-Aprender a programar es como aprender a conducir. Si tienes una base sólida de programación y sabes manejar con soltura los tipos de datos, bucles, arrays, clases, métodos, etc. podrás pasar de un lenguaje a otro en un período relativamente corto, simplemente tendrás que adaptarte a la sintaxis y a las peculiaridades del nuevo lenguaje.
-
-Con este ejercicio se pretende despertar el interés por otros lenguajes de programación distintos al que el alumno está estudiando como primer lenguaje.
-
-Sigue los pasos que se indican a continuación.
-
-## Creación del equipo
-
-Este ejercicio se debe hacer en grupos de 3 alumnos. Uno de ellos será el representante del grupo.
-
-## Forkea forkea
-
-El representante del grupo debe hacer un *fork* de este repositorio para utilizarlo como base.
-
-## Añadiendo colaboradores
-
-El encargado del grupo deberá añadir como colaboradores del repositorio *forkeado* a los otros dos miembros, para trabajar todos sobre los mismos archivos. Cuando alguien es colaborador en un repositorio, puede hacer *push* a él sin necesidad de pedir permiso o hacer *pull request*.
-
-Para añadir colaboradores hay que hacer click en la pestaña *Settings* y seleccionar luego *Collaborators* en el menú.
-
 ## Miembros del grupo
-
-Escribe aquí los miembros del grupo. El primero es el representante o encargado.
 
 * Carmen Moreno de Vega
 * Manuel Zambrana
@@ -36,17 +10,28 @@ Escribe aquí los miembros del grupo. El primero es el representante o encargado
 
 El profesor llevará una cajita llena de papelitos con los nombres de distintos lenguajes de programación. Los encargados de cada grupo meterán la mano en la caja y sacarán dos papelitos, de los cuales el grupo elegirá uno. Se permite hacer intercambio de papelitos entre grupos.
 
-Escribe el lenguaje de programación elegido por el grupo.
+Escribe el lenguaje de programación elegido .
 
-* El lenguaje elegido es RUST.
+* El lenguaje por el grupo RUSTPOWER es elegido es RUST.
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+Aunque muchos están conociendo el lenguaje RUST en los últimos años, en realidad, oficialmente salió a la luz en el 2010.
+Los proyectos en producción con Rust pueden dividirse en cliente y servidor, cualidad que hace que Rust sea uno de los lenguajes más querido por los desarrolladores.
+
+Compañías como Coursera, Dropbox, NPM y otros están empezando a utilizar Rust en sus proyectos. Dropbox, por ejemplo, lo esta usando en sus clientes de Windows, así que ya tenemos millones de implementaciones que están usando Rust y NPM lo esta utilizando para el trabajo con paquetes de Javascript.
+
+Las características más importantes de este lenguaje son:
+
+1. Rust es un lenguaje con una sintaxis es muy similar a C y C++, es decir que estaríamos encontrando las clásicas llaves y bloques de código como las condicionales y los ciclos. 
+
+2. Para las variables RUST es capaz de deducir tipos, así que no siempre le tendremos que decir que tipo de dato es, pero para que esto se aplique tendremos que utilizar la palabra'let'. Para permitir que una variable sea mutable tendremos que agregar la palabra 'mut' a la palabra 'let' en la definición de la variable.
+
+3. Rust no nos permite, como ya lo hacen ahora muchos lenguajes, utilizar un valor que no haya sido inicializado previamente. Algo que también se repite en otros lenguajes de programación es que al menos necesitamos una función de inicio (la famosa función main). Ahora viene una característica importante, Rust es un lenguaje basado en expresiones, de hecho existen 2 tipos de sentencias y todo lo demás son solo una expresión.
 
 ## Herramientas de desarrollo
 
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
+rustup-init  Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
 
 ## Poniendo en práctica el lenguaje
 
@@ -54,7 +39,10 @@ Pon en práctica el lenguaje de programación realizando los siguientes ejercici
 
 ### 1. ¡Hola mundo!
 
-Realiza un programa que muestre por pantalla la frase **¡Hola mundo!**.
+```rust
+fn main(){
+  println!("Hola mundo");
+}
 
 ### 2. Pirámide
 
