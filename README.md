@@ -52,8 +52,53 @@ fn main(){
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
 
 ```rust
-
-
+use std::io;
+use std::io::Write;
+use std::str::FromStr;
+use std::num::ParseIntError;
+ 
+fn read_input() -> Result<u32,ParseIntError> {
+    print!("Dime la altura de la pirámide: ");
+    io::stdout().flush().ok();
+    let mut input = String::new();
+    io::stdin().read_line(&mut input).ok().expect("Error al leer de teclado");
+    let input = input.trim();
+    let altura: u32 = u32::from_str(&input)?;
+    Ok(edad)
+}
+ 
+fn main() {
+    let altura;
+    let mut bucle=0;
+    let mut asteriscos=1;
+    loop {
+        if let Ok(e) = read_input(){
+            altura = e;
+            break;
+        }
+        else{
+            println!("Introduce un numero, por favor");
+        }
+    }
+    
+    let mut  espacios = altura + 1;
+    
+    while bucle < altura {
+    	for _x in 1..espacios {
+    		print!(" ");	
+    	}
+    	
+      for _x in 0..asteriscos {
+    		print!("*");
+    	}
+    	
+      println!("");
+    	bucle+=1;
+    	asteriscos+=2;
+    	espacios-=1;
+    	
+    }
+}
 ```
 
 ### 3. Arrays y números aleatorios
